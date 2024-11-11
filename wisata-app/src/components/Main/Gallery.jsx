@@ -1,5 +1,7 @@
 import { Card, CardHeader, Image } from "@nextui-org/react";
 import Marquee from "../Marquee/Marquee";
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import { Button } from "@mui/material";
 
 export default function Gallery() {
   const list = [
@@ -12,7 +14,7 @@ export default function Gallery() {
   ];
 
   return (
-    <div className="bg-white pt-11 justify-center">
+    <div className="bg-white pt-11 justify-center mb-11">
       <Marquee />
       <div className="flex justify-center items-center mt-3">
         <div className="flex flex-wrap justify-center gap-4 w-5/6 mt-6 mb-6">
@@ -44,6 +46,13 @@ export default function Gallery() {
             </Card>
           ))}
         </div>
+      </div>
+      <div className="flex w-full mb-10 justify-center items-center">
+        <Button className="hover:bg-black" color='dark' rounded='full' variant="outlined" endIcon={<ArrowForwardIcon/>} sx={{ borderRadius: '15px', textTransform: "none", width:'20%',
+          "&:hover": {
+            borderColor: 'black',
+            color: "white",
+          }, }}>See More</Button>
       </div>
     </div>
   );
