@@ -2,7 +2,7 @@ import { Card, CardBody } from "@nextui-org/react";
 import { Button } from "@mui/material";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
-export default function Leftside() {
+export default function LeftSide () {
     return (
         <div className="flex w-full h-full">
             <Card className="flex flex-col w-full rounded-lg bg-neutral-100">
