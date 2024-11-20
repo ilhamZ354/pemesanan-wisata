@@ -12,8 +12,8 @@ export const ButtonSearch = () => {
             >
                 <InputBase
                     sx={{ flex: 3, ml:2, height:'fit-content', opacity:'initial' }}
-                    placeholder="Search"
-                    inputProps={{ 'aria-label': 'search google maps' }}
+                    placeholder="Search Location or Destination"
+                    inputProps={{ 'aria-label': 'Search' }}
                 />
                 <IconButton type="button" sx={{ p: '10px' }} aria-label="search">
                     <SearchIcon />

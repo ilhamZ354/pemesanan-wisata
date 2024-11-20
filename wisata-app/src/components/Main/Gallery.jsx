@@ -14,7 +14,7 @@ export default function Gallery() {
   ];
 
   return (
-    <div className="bg-white pt-11 justify-center mb-11">
+    <div className="gallery bg-white pt-11 justify-center mb-11">
       <Marquee />
       <div className="flex justify-center items-center mt-3">
         <div className="flex flex-wrap justify-center gap-4 w-5/6 mt-6 mb-6">
