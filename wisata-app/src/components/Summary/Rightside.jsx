@@ -21,7 +21,7 @@ export default function Rightside () {
                         <p className="text-medium font-semibold text-slate-600">With us, let{`'`}s explore the beauty of Indonesia{`'`}s natural paradise. We guarantee the safety, comfort and satisfaction of your trip</p>
                         </div>
                     </div>
-                    <div className="m-3 w-1/4 mb-4">
+                    <div className="m-3 w-1/2 mb-4">
                         <Button color="dark" variant='outlined' className='bg-black' sx={{ color:'white', borderRadius:'15px', width:'100%', backgroundColor:'black', textTransform:'none' }}>Book Now</Button>
                     </div>
                 </CardBody>

@@ -12,7 +12,7 @@ export default function LeftSide () {
                 <div className="mt-4 pe-3">
                 <p className="items-start text-left mt-4 text-balance font-semibold text-zinc-400">Indonesia{`'`}s rich cultural heritage, traditional dances, and diverse cuisine provide an immersive experience. Whether you{`'`}re interested in nature, adventure, history, or relaxation, Indonesia{`'`}s scenic landscapes and welcoming people make it a memorable destination</p>
                 </div>
-                <div className='mt-4 w-1/4'>
+                <div className='mt-4 md:w-1/2'>
                 <Button className="hover:bg-black" color='dark' rounded='full' variant="outlined" endIcon={<ArrowForwardIcon/>} sx={{ borderRadius: '15px', textTransform: "none", width:'100%',
                     "&:hover": {
                         borderColor: 'black',

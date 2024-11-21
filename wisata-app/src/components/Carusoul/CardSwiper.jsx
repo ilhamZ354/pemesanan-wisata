@@ -22,7 +22,7 @@ export default function CardAccordion() {
     };
 
     return (
-        <div className="destination flex w-full justify-center mt-6">
+        <div id="destination" className="destination flex w-full justify-center mt-6">
             <div className="m-8 flex gap-3">
                 {list.map((item, index) => (
                     <Card

@@ -14,10 +14,10 @@ export default function Gallery() {
   ];
 
   return (
-    <div className="gallery bg-white pt-11 justify-center mb-11">
+    <div id="gallery" className="gallery bg-white pt-11 justify-center mb-11">
       <Marquee />
       <div className="flex justify-center items-center mt-3">
-        <div className="flex flex-wrap justify-center gap-4 w-5/6 mt-6 mb-6">
+        <div className="flex flex-wrap justify-center gap-4 w-full mt-6 mb-6">
           {list.map((item, index) => (
             <Card
               shadow="sm"
@@ -49,7 +49,7 @@ export default function Gallery() {
         </div>
       </div>
       <div className="flex w-full mb-10 justify-center items-center">
-        <Button className="hover:bg-black" color='dark' rounded='full' variant="outlined" endIcon={<ArrowForwardIcon/>} sx={{ borderRadius: '15px', textTransform: "none", width:'20%',
+        <Button className="hover:bg-black" color='dark' rounded='full' variant="outlined" endIcon={<ArrowForwardIcon/>} sx={{ borderRadius: '15px', textTransform: "none", width:'30%',
           "&:hover": {
             borderColor: 'black',
             color: "white",

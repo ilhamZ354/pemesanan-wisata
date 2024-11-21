@@ -4,7 +4,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 export default function PromoImage() {
     return (
-        <div className="promo flex flex-col w-full px-4 md:px-8 justify-start items-start mt-12 mb-6">
+        <div id="promo" className="promo flex flex-col w-full px-4 md:px-8 justify-start items-start mt-12 mb-6">
             <h5 className="mb-2 text-slate-700 font-bold text-3xl">Special Promo For You!</h5>
             <Card className="bg-neutral-100 rounded-lg w-full" >
                 <CardHeader className="flex flex-col absolute z-40 top-1 h-[400px] justify-center items-start ml-4">

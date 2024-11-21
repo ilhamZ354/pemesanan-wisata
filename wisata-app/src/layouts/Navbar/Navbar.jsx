@@ -121,7 +121,7 @@ export default function NavbarLayout() {
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
             <li>
               <a
-                href="#"
+                href="#home"
                 ref={homeSection}
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
               >
@@ -130,7 +130,7 @@ export default function NavbarLayout() {
             </li>
             <li>
               <a
-                href="#"
+                href="#gallery"
                 ref={gallerySection} // Tambahkan referensi untuk menu Gallery
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
               >
@@ -139,7 +139,7 @@ export default function NavbarLayout() {
             </li>
             <li>
               <a
-                href="#"
+                href="#summary"
                 ref={summarySection}
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
               >
@@ -148,7 +148,7 @@ export default function NavbarLayout() {
             </li>
             <li>
               <a
-                href="#"
+                href="#promo"
                 ref={promoSection}
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
               >
@@ -157,7 +157,7 @@ export default function NavbarLayout() {
             </li>
             <li>
               <a
-                href="#"
+                href="#destination"
                 ref={destinationSection}
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
               >
