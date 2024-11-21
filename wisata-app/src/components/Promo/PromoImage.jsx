@@ -24,6 +24,7 @@ export default function PromoImage() {
                     <Image
                         width='100%'
                         alt="gambar-pesawat"
+                        fetchPriority="high"
                         src="/images/snorkling.jpg"
                         className="object-cover opacity-75 h-[400px] rounded-lg"
                     />

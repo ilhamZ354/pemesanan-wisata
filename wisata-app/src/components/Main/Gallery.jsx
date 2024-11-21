@@ -31,6 +31,7 @@ export default function Gallery() {
                 radius="lg"
                 width="100%"
                 isPressable
+                fetchPriority="high"
                 alt={item.title}
                 onPress={() => {
                   console.log("");

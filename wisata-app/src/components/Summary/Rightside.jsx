@@ -9,6 +9,7 @@ export default function Rightside () {
                         width='100%'
                         alt="gambar-pesawat"
                         src="/images/pesawat-udara.jpg"
+                        fetchPriority="high"
                         className="object-cover h-[180px] opacity-75"
                     />
                 </CardBody>

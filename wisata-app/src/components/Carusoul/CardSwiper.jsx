@@ -36,6 +36,7 @@ export default function CardAccordion() {
                         <Image
                             alt={item.title}
                             src={item.img}
+                            fetchPriority="high"
                             className="object-cover h-[350px] w-full transition-opacity duration-300 group-hover:opacity-50"
                         />
                         <CardFooter className="absolute top-0 w-full h-[350px] flex flex-col justify-end items-start z-30 pointer-events-auto">

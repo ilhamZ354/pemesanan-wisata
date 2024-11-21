@@ -7,7 +7,7 @@ export default function Footer() {
                     <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <a href="#" className="flex items-center">
-                            <img src="/public/images/logo.png" className="h-8 me-3" alt="Logo" />
+                            <img src="/images/logo.png" className="h-8 me-3" alt="Logo" fetchPriority="high" />
                             <span className="self-center text-2xl text-sky-800 font-semibold whitespace-nowrap">MasTRIP</span>
                         </a>
                     </div>

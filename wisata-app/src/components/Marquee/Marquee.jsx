@@ -17,7 +17,7 @@ export default function Marquee() {
             <ul key={index} className="marquee__content" aria-hidden={index === 1}>
               {logos.map((logo, idx) => (
                 <div key={idx} className="marquee__item">
-                  <img src={logo.src} alt={logo.alt} />
+                  <img src={logo.src} alt={logo.alt} fetchPriority="high" />
                 </div>
               ))}
             </ul>

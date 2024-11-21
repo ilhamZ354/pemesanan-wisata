@@ -9,6 +9,7 @@ export default function HeaderPage() {
             <Image 
                 src="/images/bali-icon.jpg"  // Pastikan path gambar benar, tanpa `/public`
                 alt="Image" 
+                fetchPriority="high"
                 width="100%" 
                 className="bg-header w-full h-screen object-cover opacity-70 z-9"
             />
