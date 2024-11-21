@@ -7,12 +7,12 @@ import PaymentIcon from '@mui/icons-material/Payment';
 
 export default function CardAccordion() {
     const list = [
-        { title: "Pantai Kelingking", location:'Nusa Penida, Bali', price:'$100 / person', img: "/public/images/pantai-kelingking-bali.jpeg" },
-        { title: "Borobudur", location:'Magelang, Jawa Tengah', price:'$120 / person', img: "/public/images/borobudur.jpeg" },
-        { title: "Wisata Bromo", location:'Pasuruan, Jawa Timur', price:'$80 / person', img: "/public/images/bromo.jpeg" },
-        { title: "Pulau Samosir", location:'Danau Toba, Sumut', price:'$150 / person',  img: "/public/images/danau-toba.jpeg" },
-        { title: "Air Terjun Ciblungan", location:'Malang, Jawa Timur', price:'$50 / person', img: "/public/images/ciblungan-malang.jpeg" },
-        { title: "Pulau Bawean", location:'Bawean, Jawa Timur', price:'$90 / person', img: "/public/images/pulau-bawean.jpeg" },
+        { title: "Pantai Kelingking", location:'Nusa Penida, Bali', price:'$100 / person', img: "/images/pantai-kelingking-bali.jpeg" },
+        { title: "Borobudur", location:'Magelang, Jawa Tengah', price:'$120 / person', img: "/images/borobudur.jpeg" },
+        { title: "Wisata Bromo", location:'Pasuruan, Jawa Timur', price:'$80 / person', img: "/images/bromo.jpeg" },
+        { title: "Pulau Samosir", location:'Danau Toba, Sumut', price:'$150 / person',  img: "/images/danau-toba.jpeg" },
+        { title: "Air Terjun Ciblungan", location:'Malang, Jawa Timur', price:'$50 / person', img: "/images/ciblungan-malang.jpeg" },
+        { title: "Pulau Bawean", location:'Bawean, Jawa Timur', price:'$90 / person', img: "/images/pulau-bawean.jpeg" },
     ];
 
     const [expandedIndex, setExpandedIndex] = useState(null);

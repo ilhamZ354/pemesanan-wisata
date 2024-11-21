@@ -101,7 +101,7 @@ export default function NavbarLayout() {
           href="#"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <img src="/public/images/logo.png" className="h-8" alt="Logo" />
+          <img src="/images/logo.png" className="h-8" alt="Logo" />
           <span className="self-center text-2xl font-sans text-sky-700 font-semibold whitespace-nowrap">
             MasTRIP
           </span>
@@ -121,7 +121,7 @@ export default function NavbarLayout() {
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
             <li>
               <a
-                href=".home"
+                href="#"
                 ref={homeSection}
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
               >

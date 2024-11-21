@@ -6,7 +6,7 @@ export default function Logo() {
             alt="image-logo"
             width={30}
             height={100}
-            src="/public/images/logo.png"
+            src="/images/logo.png"
             />
     )
 }

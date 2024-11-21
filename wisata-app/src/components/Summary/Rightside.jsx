@@ -8,7 +8,7 @@ export default function Rightside () {
                     <Image
                         width='100%'
                         alt="gambar-pesawat"
-                        src="/public/images/pesawat-udara.jpg"
+                        src="/images/pesawat-udara.jpg"
                         className="object-cover h-[180px] opacity-75"
                     />
                 </CardBody>

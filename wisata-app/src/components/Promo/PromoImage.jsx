@@ -24,7 +24,7 @@ export default function PromoImage() {
                     <Image
                         width='100%'
                         alt="gambar-pesawat"
-                        src="/public/images/snorkling.jpg"
+                        src="/images/snorkling.jpg"
                         className="object-cover opacity-75 h-[400px] rounded-lg"
                     />
                 </CardBody>

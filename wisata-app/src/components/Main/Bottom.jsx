@@ -7,7 +7,7 @@ export default function Bottom() {
                 <Image
                     className="object-cover h-auto w-full bg-gradient-to-b from-transparent to-white opacity-75"
                     alt='gambar-background-bawah'
-                    src='/public/images/gunung.jpg'
+                    src='/images/gunung.jpg'
                 />
                 <CardHeader className="flex flex-col absolute z-30 top-0 w-full h-[100vh] bg-gradient-to-b from-white to-transparent">
                     <div className="w-full mt-8">
